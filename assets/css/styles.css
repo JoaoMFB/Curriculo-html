@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.all{
+    display: flex;    
+}
+.left{
+    background-color: #555353;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+    padding: 5%;
+    padding-top:9%;
+    
+}
+.perfil{
+    margin-left: 50px;
+    height: 320px;
+    width: 240px;
+    border-radius: 30%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.infoleft{
+    padding: 10%;
+}
+.titleleft{
+    color: #FFFFFF;
+    background: #555353;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    color: #FFFFFF;
+    background: #555353;
+    padding:3%;
+}
+
+.subleft{
+    font-style: italic;
+    padding:5%
+}
+.info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(197, 192, 192);
+}
+
+.right{
+    width: 80%;
+    padding: 5%;
+    padding-top:8%;
+    background-color:aliceblue;  
+}
+.name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #202c2d;
+    text-shadow: -4px -2px 7px rgba(0,0,0,0.4);
+
+}
+
+.titleright{
+    color: #333333;
+    background: aliceblue;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+    color: #333333;
+    background: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inforight{
+    
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.expinfo{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.web{
+    display:flex;
+}
+
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-whats{
+    border-radius: 10%;
+    background:#25D366;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn-whats:hover{
+    background:#075E54;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn-whats:active{
+    position:relative;
+    top:2px;
+    box-shadow: none;
+}
+.btn-insta{
+    border-radius: 10%;
+    background: #e95950;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn-insta:hover{
+    background:#bc2a8d;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+    
+    .btn-insta:active{
+    position:relative;
+    top:2px;
+    box-shadow: none;
+}
